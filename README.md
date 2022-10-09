@@ -126,7 +126,7 @@ The contribution guidelines are as per the guide [HERE](https://github.com/Mouha
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/MouhammadAyoub/CVs-repository/blob/main/LICENSE) for more information.  
+Distributed under the MIT License. See [`LICENSE`](https://github.com/lynnaouad/Face-Attendance-System/blob/main/LICENSE) for more information.  
 Copyright © 2022, Lynn Aouad
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,7 +135,7 @@ Copyright © 2022, Lynn Aouad
 
 - Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;[lynnaouad34@gmail.com](mailto:lynnaouad34@gmail.com)
 
-- Project Link : &nbsp;[https://github.com/lynnaouad/CoffeeShop-Website](https://github.com/lynnaouad/CoffeeShop-Website)
+- Project Link : &nbsp;[https://github.com/lynnaouad/Face-Attendance-System](https://github.com/lynnaouad/Face-Attendance-System)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
