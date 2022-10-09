@@ -11,25 +11,27 @@
 > Welcome aboard fellow developer, this is where you will find projects which you are free to contribute to. You can contribute by submitting your own scripts, which you think would be amazing for other people to see. 
 
 ## Description
-The objective of the project is to create a program that assists University Doctors and teaching assistants with taking student attendance. It will scan students' faces using the camera connected to the device on which the program is running, it will find the face in the video and encode it into data that will be compared with the encoding of the images present in the program database, upon detecting the facial identification, it will save the student's name together with the time he entered the class in a csv file that will be sent to the teacher via Email, after the software is closed by scanning the instructors face.
+The objective of the project is to create a program with a friendly user interface that assists University Doctors and teaching assistants with taking student attendance. First the student must login then join the meeting, the program will scan the student's face using the camera connected to the device on which the program is running, it will find the face in the video and encode it into data that will be compared with the encoding of the images present in the program database, upon detecting the facial identification, it will save the student's name together with the time he joined and left the meeting in a csv file that will be sent to the instructor via Email after he finishes the meeting. <br>
+
+`Note` In this project we used SQLite database to save login and instructor information and PyQt5 library for graphical user interface.
 
 ## Built With
 
-* [![HTML5][HTML5.com]][HTML5-url]
-* [![CSS3][CSS3.com]][CSS3-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JS][JS.com]][JS-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-* [![PHP][PHP.com]][PHP-url]
-* [![MYSQL][MYSQL.com]][MYSQL-url]
+* [![Python][Python.com]][Python-url]
+* [![SQLite][SQLite.com]][SQLite-url]
+* [![PyQt5][PyQt5.com]][PyQt5-url]
 
-**Plugins:**<br>
+
+**Python Packages Used:**<br>
 <ul>
-  <li>aos-2.3.4</li>
-  <li>chart.js-3.7.1</li>
-  <li>iconify-2.1.2</li>
-  <li>sweetalert2</li>
-  <li>swiper-8.0.7</li>
+  <li>numpy</li>
+  <li>cmake</li>
+  <li>opencv-python</li>
+  <li>dlib</li>
+  <li>face_recognition</li>
+  <li>secure-smtplib</li>
+  <li>time</li>
+  <li>PyQT5</li>
 </ul><br>
 
   
@@ -79,29 +81,20 @@ Download the project from github to your desktop:
       **3.** Unzip it, this will create a folder named after the GitHub repository</br></br>
 
   - **Steps you must do to make the app work properly** :
+      **1.** Install all the packages listed in the "Python Packages Used" section in this README.<br>
+
+      **2.** Copy the images of the students and the instructor faces to the "Students_Images" folder. Each image has to have the name of the student.<br>
+
+      **3.** Insert the information of the instructors and logins in SQlite database "SystemDB.db".<br>
       
-      `Note:` Please Make sure that PHP/mysqli version is 7.4+, so that the project can run without any possible errors. <br><br>
-      
-      **1.** You must have `XAMPP` or `WAMPP` web server.<br>
-      
-      **2.** Create a new directory named 'project' in: `C:\xampp\htdocs` and **export** your CoffeShop project there.<br><br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/82551484/194700099-8706612f-13cc-4cc9-9de8-f88426c24da2.png" width="300px;" /></br>
-      
-      
-      **3.** In PhpMyAdmin:<br>
-      - Create Database named: `coffeeshop`
-      - Import `coffeeshop.sql` file from Database folder.<br>
-         
-      **4.** Database Connection: If you have a specific `username` or `password` update database connection: `includes\db_connect.php` <br>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/82551484/194699715-198b6ccb-5d43-4ea4-b785-f9f07ce9e18a.png" width="500px" /></br>  
-      
-      **5.** Open your project: `http://localhost/CoffeShop`
+      **4.** Execute the program (AttendanceSystem.py).<br>
  
       
 <p align="right">(<a href="#readme-top">back to top</a>)</p> <br>
 
 
 ## Usage
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,18 +153,12 @@ Copyright © 2022, Lynn Aouad
 
 
 
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-[HTML5.com]: https://img.shields.io/badge/HTML5-ff7340?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://html5.com 
-[CSS3.com]: https://img.shields.io/badge/CSS3-4A4A55?style=for-the-badge&logo=css3&logoColor=61DAFB
-[CSS3-url]: https://css3.com 
-[JS.com]: https://img.shields.io/badge/JS-EBE663?style=for-the-badge&logo=javascript&logoColor=black
-[JS-url]: https://javascript.com 
-[PHP.com]: https://img.shields.io/badge/PHP-ff2814?style=for-the-badge&logo=php&logoColor=61DAFB
-[PHP-url]: https://php.com 
-[MYSQL.com]: https://img.shields.io/badge/MYSQL-000000?style=for-the-badge&logo=mysql&logoColor=white
-[MYSQL-url]: https://mysql.com 
+[Python.com]: https://img.shields.io/badge/Python-563D7C?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://Python.com
+
+[SQLite.com]: https://img.shields.io/badge/SQLite-0769AD?style=for-the-badge&logo=sqlite&logoColor=white
+[SQLite-url]: https://SQLite.com
+
+[PyQt5.com]: https://img.shields.io/badge/PyQt5-ff7340?style=for-the-badge&logo=python&logoColor=white
+[PyQt5-url]: https://PyQt5.com
 
