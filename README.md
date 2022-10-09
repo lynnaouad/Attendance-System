@@ -80,7 +80,7 @@ Download the project from github to your desktop:
       
       **3.** Unzip it, this will create a folder named after the GitHub repository</br></br>
 
-  - **Steps you must do to make the app work properly** : <br>
+  - **Steps you must do to make the app work properly** : <br><br>
       **1.** Install all the packages listed in the "Python Packages Used" section in this README.<br>
 
       **2.** Copy the images of the students and the instructor faces to the "Students_Images" folder. Each image has to have the name of the student.<br>
