@@ -11,9 +11,9 @@
 > Welcome aboard fellow developer, this is where you will find projects which you are free to contribute to. You can contribute by submitting your own scripts, which you think would be amazing for other people to see. 
 
 ## Description
-The objective of the project is to create a program with a friendly user interface that assists University Doctors and teaching assistants with taking student attendance. First the student must login then join the meeting, the program will scan the student's face using the camera connected to the device on which the program is running, it will find the face in the video and encode it into data that will be compared with the encoding of the images present in the program database, upon detecting the facial identification, it will save the student's name together with the time he joined and left the meeting in a csv file that will be sent to the instructor via Email after he finishes the meeting. <br>
+The objective of the project is to create a program with a friendly user interface that assists University Doctors with taking student attendance. First the student must login then join the meeting, the program will scan the student's face using the camera connected to the device on which the program is running, it will find the face in the video and encode it into data that will be compared with the encoding of the images present in the program database, upon detecting the facial identification, it will save the student's name together with the time he joined and left the meeting in a csv file that will be sent to the instructor via Email after he finishes the meeting. <br>
 
-`Note` In this project we used SQLite database to save login and instructor information and PyQt5 library for graphical user interface.
+`Note` In this project SQLite database is used to save login and instructor information and PyQt5 library for graphical user interface.
 
 ## Built With
 
@@ -70,7 +70,7 @@ Download the project from github to your desktop:
       </br>
       
   - **Without Git** :
-      When downloading materials to your laptop, it is easiest to download the entire repository.
+      When downloading materials to your laptop, it is easiest to download the entire repository.<br>
       
       **1.** Click on the green `Code` button, then download the repository as a ZIP file</br>
       
