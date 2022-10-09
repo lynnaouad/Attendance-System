@@ -55,10 +55,10 @@ Download the project from github to your desktop:
       
       **4.** Once you have navigated to the directory where you want to put your repository, you can use
       ```shell
-      git clone https://github.com/lynnaouad/CoffeeShop-Website.git
+      git clone https://github.com/lynnaouad/Face-Attendance-System.git
       ```
       
-      **5.** When you run `git clone https://github.com/lynnaouad/CoffeeShop-Website.git`, You should see output like
+      **5.** When you run `git clone https://github.com/lynnaouad/Face-Attendance-System.git`, You should see output like
       ```shell
       Cloning into 'test-repo'...
       remote: Counting objects: 5, done.
@@ -80,7 +80,7 @@ Download the project from github to your desktop:
       
       **3.** Unzip it, this will create a folder named after the GitHub repository</br></br>
 
-  - **Steps you must do to make the app work properly** :
+  - **Steps you must do to make the app work properly** : <br>
       **1.** Install all the packages listed in the "Python Packages Used" section in this README.<br>
 
       **2.** Copy the images of the students and the instructor faces to the "Students_Images" folder. Each image has to have the name of the student.<br>
