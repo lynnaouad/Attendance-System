@@ -124,8 +124,8 @@ Download the project from github to your desktop:
 `Note` During face detection if the current face didn't match with any of the others faces present in the program database then the student can't join the meeting. <br>
 ![8yioLiD7cz](https://user-images.githubusercontent.com/82551484/194874162-acd0f8d6-6a39-4b0a-9c9e-3f5f8fbc7955.png) <br>
 
-![PicsArt_10-10-04 36 47](https://user-images.githubusercontent.com/82551484/194879023-882517df-4851-420c-8eef-f9ab89468531.png)
- <br>
+<img width="630" height="500" src="https://user-images.githubusercontent.com/82551484/194879023-882517df-4851-420c-8eef-f9ab89468531.png" > <br>
+
 
 `Note` After the instructor finishes the meeting the program will send him automatically an email containing the attendance file and exit. <br>
 ![RA1ReaDGt6](https://user-images.githubusercontent.com/82551484/194876103-7d99ec91-10f0-4fae-a8d2-56d184b85227.png) <br> 
